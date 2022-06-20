@@ -1,0 +1,16 @@
+console.log("Date Time Object InJavaScript");
+let today = new Date();
+console.log(today);
+let dd = today.getDate();
+let mm = today.getMonth() + 1;
+let yyyy = today.getFullYear();
+let hh = today.getHours();
+console.log("Date: " + dd + "/" + mm + "/" + yyyy);
+let otherdate = new Date("June 1, 2018");
+console.log(otherdate);
+let otherdd = otherdate.getDate();
+console.log("Date: " + otherdd);
+let othermm = otherdate.getMonth() + 1;
+console.log("Month: " + othermm);
+let otheryyyy = otherdate.getFullYear();
+console.log("Year: " + otheryyyy);
